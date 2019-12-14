@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: dubbon-provider
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  scan:
+    base-packages: com.tina.spring.cloud.apache.dubbo.provider.service.impl
+  protocol:
+    name: dubbo
+    port: 9999
+    serialization: kryo
+  registry:
+    address: nacos://192.168.64.136:8848
+  provider:
+    loadbalance: roundrobin
+

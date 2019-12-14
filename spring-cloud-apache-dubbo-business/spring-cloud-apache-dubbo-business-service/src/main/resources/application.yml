@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: dubbo-business
+  main:
+    allow-bean-definition-overriding: true
+#扫描包路径
+dubbo:
+  scan:
+    base-packages: com.tina.spring.cloud.dubbo.business.controller
+  protocol:
+    name: dubbo
+    port: -1
+    #启用 Kryo 高速序列化功能
+    serialization: kryo
+    #nacos地址
+  registry:
+    address: nacos://192.168.64.136:8848
+
+
+
+#端口号
+server:
+  port: 8080
+
+#健康检查
+endpoints:
+  dubbo:
+    enabled: true
+
+management:
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: threadpool
+  endpoints:
+    web:
+      exposure:
+        include: "*"

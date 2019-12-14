@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-apache-dubbo-provider-api" />
+        <module name="spring-cloud-apache-dubbo-business-service" />
+        <module name="spring-cloud-apache-dubbo-provider-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-apache-dubbo" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-business" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-business-api" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-business-service" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-dependencies" target="1.5" />
+      <module name="spring-cloud-apache-dubbo-provider" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-provider-api" target="1.8" />
+      <module name="spring-cloud-apache-dubbo-provider-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-apache-dubbo-business" options="-parameters" />
+      <module name="spring-cloud-apache-dubbo-business-api" options="-parameters" />
+      <module name="spring-cloud-apache-dubbo-business-service" options="-parameters" />
+      <module name="spring-cloud-apache-dubbo-provider-api" options="-parameters" />
+      <module name="spring-cloud-apache-dubbo-provider-service" options="-parameters" />
+    </option>
+  </component>
+</project>

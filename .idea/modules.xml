@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-apache-dubbo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-apache-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-business/spring-cloud-apache-dubbo-business.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-business/spring-cloud-apache-dubbo-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-business/spring-cloud-apache-dubbo-business-service/spring-cloud-apache-dubbo-business-service.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-business/spring-cloud-apache-dubbo-business-service/spring-cloud-apache-dubbo-business-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-dependencies/spring-cloud-apache-dubbo-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-dependencies/spring-cloud-apache-dubbo-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-api/spring-cloud-apache-dubbo-provider-api.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-api/spring-cloud-apache-dubbo-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-service/spring-cloud-apache-dubbo-provider-service.iml" filepath="$PROJECT_DIR$/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-service/spring-cloud-apache-dubbo-provider-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-cloud-apache-dubbo-business/spring-cloud-apache-dubbo-business-service/target/
+/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-api/target/
+/spring-cloud-apache-dubbo-provider/spring-cloud-apache-dubbo-provider-service/target/
